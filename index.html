@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OyaPay - Send Money Fast</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom animation for the button */
+        @keyframes bounce-slow {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+        .animate-bounce-slow { animation: bounce-slow 2s infinite; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <nav class="flex justify-between items-center px-6 py-4 bg-white shadow-sm sticky top-0 z-50">
+        <div class="text-2xl font-bold text-green-600">Oya<span class="text-orange-500">Pay</span></div>
+        <div class="hidden md:flex space-x-8 font-medium text-gray-700">
+            <a href="#" class="hover:text-green-600">Personal</a>
+            <a href="#" class="hover:text-green-600">Business</a>
+            <a href="#" class="hover:text-green-600">Help</a>
+        </div>
+        <button class="bg-green-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-green-700 transition">
+            Login
+        </button>
+    </nav>
+
+    <header class="text-center py-20 px-4 bg-gradient-to-b from-green-50 to-white">
+        <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6">
+            Send Money to Grandma <br> <span class="text-green-600">in 2 Seconds.</span>
+        </h1>
+        <p class="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
+            No "Network Issue," no "Bank Statement" stress. Just fast, reliable transfers to any bank in Nigeria at the speed of light.
+        </p>
+        <div class="flex justify-center gap-4">
+            <button class="bg-black text-white px-8 py-3 rounded-lg font-bold hover:scale-105 transition transform">
+                Download App
+            </button>
+            <button class="border-2 border-gray-300 px-8 py-3 rounded-lg font-bold hover:bg-gray-100">
+                Learn More
+            </button>
+        </div>
+    </header>
+
+    <section class="max-w-6xl mx-auto px-6 py-20">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div class="bg-white p-8 rounded-2xl shadow-md border-b-4 border-green-500 hover:-translate-y-2 transition">
+                <div class="text-4xl mb-4">🚀</div>
+                <h3 class="text-xl font-bold mb-2">Instant Transfer</h3>
+                <p class="text-gray-500">Money drops before the alert enters. No more waiting at the POS stand.</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-md border-b-4 border-orange-500 hover:-translate-y-2 transition">
+                <div class="text-4xl mb-4">🔒</div>
+                <h3 class="text-xl font-bold mb-2">Iron Security</h3>
+                <p class="text-gray-500">Your money is safer than a locked shop in Alaba Market. End-to-end encryption.</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-md border-b-4 border-blue-500 hover:-translate-y-2 transition">
+                <div class="text-4xl mb-4">💰</div>
+                <h3 class="text-xl font-bold mb-2">Zero Hidden Fees</h3>
+                <p class="text-gray-500">What you send is what they get. We don't do "Maintenance Charges" here.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-green-700 mx-6 mb-20 rounded-3xl py-16 text-center text-white">
+        <h2 class="text-3xl font-bold mb-6">Ready to stop carrying cash?</h2>
+        <button class="bg-orange-500 hover:bg-orange-600 text-white px-10 py-4 rounded-full font-black text-xl animate-bounce-slow">
+            Join OyaPay Now!
+        </button>
+    </section>
+
+    <footer class="text-center py-10 border-t border-gray-200 text-gray-400 text-sm">
+        <p>&copy; 2026 OyaPay Tech. Built for the streets of Nigeria. 🇳🇬</p>
+    </footer>
+
+</body>
+</html>
